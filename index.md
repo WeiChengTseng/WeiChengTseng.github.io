@@ -12,27 +12,27 @@
 
 * Mar 2017, The Zhu Shun Yi He Qin Scholarship, NTHU
 
-Only two student in electrical engineering department. (There are 104 students in electrical engineering department)
+  Only two student in electrical engineering department. (There are 104 students in electrical engineering department)
 
 * Mar 2016, Academic Achievement Award, NTHU
 
-Awarded to the top 5% students in the previous semester.
+  Awarded to the top 5% students in the previous semester.
 
 * Sep 2016, Academic Achievement Award, NTHU
 
-Awarded to the top 5% students in the previous semester.
+  Awarded to the top 5% students in the previous semester.
 
 * Mar 2017, Summer Oversea Experience Scholarship, NTHU
 
-Only ten student in electrical engineering department. (There are 104 students in electrical engineering department)
+  Only ten student in electrical engineering department. (There are 104 students in electrical engineering department)
 
 * Sep 2017, Academic Achievement Award, NTHU
 
-Awarded to the top 5% students in the previous semester.
+  Awarded to the top 5% students in the previous semester.
 
 * Mar 2018, Academic Achievement Award, NTHU
 
-Awarded to the top 5% students in the previous semester.
+  Awarded to the top 5% students in the previous semester.
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
