@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Education
 
-You can use the [editor on GitHub](https://github.com/WeiChengTseng/WeiChengTseng.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* National Tsing Hua University
+  2015/9 - present
+* National Hsinchu Senior High School
+  2012/9 - 2015/6
 
 ### Markdown
 
