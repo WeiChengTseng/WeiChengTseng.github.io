@@ -1,23 +1,37 @@
 ## Education
 
 * National Tsing Hua University
-  > 2015/9 - present
+  
+  2015/9 - present
+
 * National Hsinchu Senior High School
+  
   > 2012/9 - 2015/6
 
 ## Award and Scholarship
 
 * Mar 2017, The Zhu Shun Yi He Qin Scholarship, NTHU
+
 Only two student in electrical engineering department. (There are 104 students in electrical engineering department)
+
 * Mar 2016, Academic Achievement Award, NTHU
+
 Awarded to the top 5% students in the previous semester.
+
 * Sep 2016, Academic Achievement Award, NTHU
+
 Awarded to the top 5% students in the previous semester.
+
 * Mar 2017, Summer Oversea Experience Scholarship, NTHU
+
 Only ten student in electrical engineering department. (There are 104 students in electrical engineering department)
+
 * Sep 2017, Academic Achievement Award, NTHU
+
 Awarded to the top 5% students in the previous semester.
+
 * Mar 2018, Academic Achievement Award, NTHU
+
 Awarded to the top 5% students in the previous semester.
 
 
