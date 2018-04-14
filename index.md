@@ -34,6 +34,33 @@
 
   Awarded to the top 5% students in the previous semester.
 
+## Team Project
+
+* Sep 2017 - present, Protein Function Prediction, NTHU
+  Detailed achievements:
+  * My special topic on implementation advisor is Min Sun.
+  * Use deep learning to analysis peptides whose functions are unknown.
+  * What I learn in the project:
+    - Take Stanford CS231n: Convolutional Neural Networks for Visual Recognition online.
+    - Take NTU Machine Learning Fundation online.
+    - Familar with Python, TensorFlow and Numpy.
+    - Read more than 40 research papers.
+  * Plan to attend CAFA-PI (Critical Assessment of protein Function An-
+  notation) competition in April 20.
+* Dec 2017 - Jan 2018, Smart Farming System, NTHU
+  Detailed achievements:
+  * Use Mediatek LinkIt one to build a sensor network.
+  * Create a web to monitor the growth of bean sprouts.
+  * What I learn in the project:
+    - Familar with Ardunio.
+    - Familiar with Javascript, html and CSS.
+* May 2016 - Jun 2016, Mini Car Dashboard, NTHU
+  Detailed achievements:
+  * Use Xilinx FPGA to build a mini car dashboard.
+  * What I learn in the project:
+    - Familar with Verilog and logic design.
+
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
