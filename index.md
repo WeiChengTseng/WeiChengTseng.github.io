@@ -1,9 +1,9 @@
 ## Education
 
 * National Tsing Hua University
-  2015/9 - present
+  > 2015/9 - present
 * National Hsinchu Senior High School
-  2012/9 - 2015/6
+  > 2012/9 - 2015/6
 
 ### Markdown
 
