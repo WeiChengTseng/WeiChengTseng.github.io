@@ -47,6 +47,7 @@
     - Read more than 40 research papers.
   * Plan to attend CAFA-PI (Critical Assessment of protein Function An-
   notation) competition in April 20.
+  
 * Dec 2017 - Jan 2018, Smart Farming System, NTHU
   Detailed achievements:
   * Use Mediatek LinkIt one to build a sensor network.
@@ -54,6 +55,7 @@
   * What I learn in the project:
     - Familar with Ardunio.
     - Familiar with Javascript, html and CSS.
+    
 * May 2016 - Jun 2016, Mini Car Dashboard, NTHU
   Detailed achievements:
   * Use Xilinx FPGA to build a mini car dashboard.
