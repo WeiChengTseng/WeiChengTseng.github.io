@@ -6,7 +6,7 @@
 
 * National Hsinchu Senior High School
   
-  > 2012/9 - 2015/6
+  2012/9 - 2015/6
 
 ## Award and Scholarship
 
