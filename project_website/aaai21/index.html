@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Toward Robust Long Range Policy Transfer </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
+		rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Open+Sans&family=Roboto&display=swap"
+		rel="stylesheet">
+	<style type="text/css">
+		.jumbotron {
+			background-image: url('./assets/dark_sky.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 300px;
+			background-color: gray;
+			color: white;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<!-- <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css"> -->
+	<!-- <link href="./assets/all.css" rel="stylesheet">  -->
+</head>
+
+<body>
+
+	<div class="jumbotron jumbotron-fluid">
+		<!-- <div class="jumbotron jumbotron-fluid" style="background-image: url('./assets/gray_bg.png');"> -->
+
+		<div class="text_center thin_content">
+			<h2 class="mt-0">Toward Robust Long Range Policy Transfer</h2>
+			<hr class="my-6" style="background-color: white">
+			<p>
+				<b>Wei-Cheng Tseng</b>, Jin-Shang Lin, Yao-Min Feng, Min Sun
+			</p>
+			<p>
+				National Tsing Hua University
+			</p>
+			<p>
+				AAAI 2021
+			</p>
+			<!-- <p>
+				<i class="fa fa-file-pdf-o" aria-hidden="true"></i>[paper] &nbsp
+				<i class="fa fa-github-alt" aria-hidden="true"></i> [code]
+			</p> -->
+		</div>
+	</div>
+	<div class="container">
+		<div class="container spacing">
+		</div>
+		<div class="thin_content">
+			<h4>Abstract</h4>
+			<hr>
+			<div class="container spacing">
+				Humans can master a new task within a few trials by drawing upon skills acquired through prior
+				experience. To mimic this capability, hierarchical models combining primitive policies learned from
+				prior tasks have been proposed. However, these methods fail short comparing to the human’s range of
+				transferability. We propose a method, which leverages the hierarchical structure to train the
+				combination function and adapt the set of diverse primitive polices alternatively, to efﬁciently produce
+				a range of complex behaviors on challenging new tasks. We also design two regularization terms to
+				improve the diversity and utilization rate of the primitives in the pretraining phase. We demonstrate
+				that our method outperforms other recent policy transfer methods by combining and adapting these
+				reusable primitives in tasks with continuous action space. The experiment results further show that our
+				approach provides a broader transferring range. The ablation study also show the regularization terms
+				are critical for long range policy transfer. Finally, we show that our method consistently outperforms
+				other methods when the quality of the primitives varies.
+			</div>
+
+			<div class="container spacing">
+			</div>
+
+			<h4>Qualitive Results</h4>
+			<hr>
+			Coming soon
+			<div class="container spacing">
+			</div>
+
+			<h4>Resource and Citation</h4>
+			<hr>
+			<img class="paper_snapshot" src="./assets/paper_snapshot.png">
+			<div class="container spacing">
+			</div>
+			<button type="button" class="btn btn-light"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Paper </button>&nbsp
+			<button type="button" class="btn btn-light"><i class="fa fa-github-alt" aria-hidden="true"></i> Code </button>&nbsp
+			<button type="button" class="btn btn-light"><i class="fa fa-video-camera" aria-hidden="true"></i> Video </button>
+			<div class="container spacing">
+			</div>
+			<div class="bitex">
+				<code>
+					&ensp; @inproceedings{aaai21_tseng,<br />
+					&ensp; &nbsp &nbsp author = {Wei-Cheng Tseng, Jin-Shang Lin, Yao-Min Feng, Min Sun},<br />
+					&ensp; &nbsp &nbsp title = {Toward Robust Long Range Policy Transfer},<br />
+					&ensp; &nbsp &nbsp journal = {AAAI},<br />
+					&ensp; &nbsp &nbsp year = {2021}<br />
+					&ensp;}
+				</code>
+			</div>
+
+			<div class="container spacing">
+			</div>
+
+			<h4>Acknowledgement</h4>
+			<hr>
+			<div class="container spacing">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<img class="ack" src="./assets/nthu.png">
+					</div>
+					<div class="col">
+						<img class="ack" src="./assets/most.png">
+					</div>
+					<div class="col ">
+						<img class="ack" src="./assets/ntu_ai.png">
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</body>
+
+</html>

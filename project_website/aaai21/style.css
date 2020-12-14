@@ -4,8 +4,8 @@
 }
 
 .thin_content {
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .thin_navbar {
@@ -18,7 +18,7 @@
 
 .publication_item {
     margin-top: 5px;
-    margin-left: 0%;
+    margin-left: 5%;
 }
 
 .publication_title {
@@ -36,14 +36,44 @@
     margin-top: 2px;
     font-size: 95%;
 }
+
 .photo {
     border-radius: 12%
 }
 
-.email{
+.email {
     font-family: 'Courier Prime', monospace;
 }
 
-.disable{
-    pointer-events: none;
+.text_center {
+    text-align: center;
+}
+
+/* .jumbotron {
+    color: black;
+} */
+
+.paper_snapshot {
+    max-width: 100%;
+}
+
+.ack {
+    max-width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100px; */
+
+}
+
+.bitex{
+    border-radius: 5px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(230, 230, 230);
+}
+.btn-light{
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
 }
