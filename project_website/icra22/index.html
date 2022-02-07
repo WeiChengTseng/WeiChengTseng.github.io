@@ -21,9 +21,19 @@
     <title>CLA-NeRF</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'
+		rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Open+Sans&family=Roboto&display=swap"
+		rel="stylesheet"> -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <style>
         /* Remove the navbar's default margin-bottom and rounded borders */
         
@@ -38,6 +48,7 @@
             padding: 25px;
         }
     </style>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <link rel="stylesheet" href="./assets/font.css">
     <link rel="stylesheet" href="./assets/main.css">
 </head>
@@ -50,7 +61,7 @@
             <h3 style="color:white;margin-top:0;">Category-Level Articulated Neural Radiance Field</h3>
             <br>
             <p style="color:white"><a>ICRA 2022</a><br>
-                <a>Submission</a>
+                <a>Wei-Cheng Tseng, Hung-Ju Liao, Yen-Chen Lin, Min Sun</a>
                 <br>
         </div>
     </div>
@@ -69,11 +80,29 @@
         </p>
     </div><br><br> -->
 
+    <div class="container bg-3">
+        <br>
+
+        <div class="row">
+            <h2 class="text-center">Abstract</h2>
+            <hr />
+            <div class="col-sm-12 text-center">
+                <img src="./assets/teaser_v7.png" class="img-responsive" style="width:120%" alt="Image">
+            </div>
+			<div class="container spacing">
+			</div>
+			<div class="container spacing">
+			</div>
+            <p>
+                We propose CLA-NeRF -- a Category-Level Articulated Neural Radiance Field that can perform view synthesis, part segmentation, and articulated pose estimation. CLA-NeRF is trained at the object category level using no CAD models and no depth, but a set of RGB images with ground truth camera poses and part segments. During inference, it only takes a few RGB views (i.e., few-shot) of an unseen 3D object instance within the known category to infer the object part segmentation and the neural radiance field. Given an articulated pose as input, CLA-NeRF can perform articulation-aware volume rendering to generate the corresponding RGB image at any camera pose. Moreover, the articulated pose of an object can be estimated via inverse rendering. In our experiments, we evaluate the framework across five categories on both synthetic and real-world data. In all cases, our method shows realistic deformation results and accurate articulated pose estimation. We believe that both few-shot articulated object rendering and articulated pose estimation open doors for robots to perceive and interact with unseen articulated objects.
+            </p>
+        </div>
+    </div><br><br>
+
 
 
     <div class="container bg-3">
         <br>
-
         <div class="row">
             <h2 class="text-center">Real-World Results</h2>
             <hr />
@@ -95,7 +124,8 @@
         <div class="col-sm-12 text-center">
             <img src="./assets/ape.gif" class="img-responsive" style="width:120%" alt="Image">
         </div>
-    </div><br><br>
+    </div>
+    <br><br>
 
 
     <div class="container bg-3">
@@ -113,6 +143,40 @@
             <div class="col-sm-12 text-center">
                 <img src="./assets/final_deform.gif" class="img-responsive" style="width:120%" alt="Image">
             </div>
+        </div>
+
+        <!-- <hr />
+        <p>
+            <b>Articulated Pose Estimation </b> We show overlaid images of the rendered and observed images during the optimization of the articulated pose. These examples show that CLA-NeRF is able to recover real setting.
+        </p> -->
+    </div><br><br>
+
+
+    <div class="container bg-3">
+        <br>
+
+        <div class="row">
+            <h2 class="text-center">Resource and Citation</h2>
+            <hr />
+
+            <img class="paper_snapshot" src="./assets/all.png">
+            <div class="container spacing">
+            </div>
+			<a type="button" class="btn btn-light" href="https://arxiv.org/abs/2202.00181"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Paper </a>&nbsp
+			<a type="button" class="btn btn-light" href="https://github.com/WeiChengTseng/CLA-NeRF"><i
+					class="fa fa-github-alt" aria-hidden="true"></i> Code (comming soon) </a>&nbsp
+            <div class="container spacing">
+            </div>
+			<div class="bitex">
+				<code>
+					&ensp; @inproceedings{icra_tseng,<br />
+					&ensp; &nbsp &nbsp author = {Wei-Cheng Tseng, Hung-Ju Liao, Yen-Chen Lin, Min Sun},<br />
+					&ensp; &nbsp &nbsp title = {CLA-NeRF: Category-Level Articulated Neural Radiance Field},<br />
+					&ensp; &nbsp &nbsp journal = {ICRA},<br />
+					&ensp; &nbsp &nbsp year = {2022}<br />
+					&ensp; }
+				</code>
+			</div>
         </div>
 
         <!-- <hr />

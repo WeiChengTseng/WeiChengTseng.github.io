@@ -23,5 +23,30 @@ body {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 950px;
+}
+
+.bitex{
+    border-radius: 5px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(230, 230, 230);
+    font-size: 15px;
+}
+code{
+    background-color: aliceblue
+}
+
+.spacing {
+    margin-top: 20px;
+}
+
+.btn-light{
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+}
+
+.paper_snapshot {
+    max-width: 100%;
 }
