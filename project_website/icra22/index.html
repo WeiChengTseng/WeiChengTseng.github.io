@@ -111,6 +111,26 @@
         </div>
     </div><br><br>
 
+    <div class="container bg-3">
+        <br>
+    <div class="row">
+        <h2 class="text-center">Method</h2>
+        <hr />
+        <div class="col-sm-12 text-center">
+            <img src="./assets/overview_v7.png" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="container spacing">
+        </div>
+        <div class="container spacing">
+        </div>
+        <p>
+            (a) Our framework retrieves features from two instance as the condition of NeRF model and predicts color <b>c</b>, density <b>&sigma;</b> and segmentation <b>s</b>. The volume rendering is applied to predict rendered results.
+            (b) We calculate the deformation matrix based on the articulated pose. Then, we deform the sampled rays with the deformation matrix. Finally, the deformed visual image is rendered using our learned framework. 
+            (c) The articulated pose is estimated via inversely minimizing <b>L<sub>color</sub></b>.
+        </p>
+    </div>
+</div><br><br>
+
 
 
     <div class="container bg-3">
@@ -179,6 +199,8 @@
             <img class="paper_snapshot" src="./assets/all.png">
             <div class="container spacing">
             </div>
+            <a type="button" class="btn btn-light" href="#"><i class="fa fa-file-pdf-o"
+                    aria-hidden="true"></i> Video </a>&nbsp
             <a type="button" class="btn btn-light" href="https://arxiv.org/abs/2202.00181"><i class="fa fa-file-pdf-o"
                     aria-hidden="true"></i> Paper </a>&nbsp
             <a type="button" class="btn btn-light" href="https://github.com/WeiChengTseng/CLA-NeRF"><i
