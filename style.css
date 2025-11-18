@@ -59,6 +59,14 @@ body {
     border-left: 3px solid var(--brown-light);
     padding: 1rem;
     margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.media-body {
+    flex: 1;
+    min-width: 0;
 }
 
 .media h4 {
@@ -85,6 +93,19 @@ body {
     padding: 0.1rem 0.2rem;
     margin: -0.1rem -0.2rem;
     border-radius: 3px;
+}
+
+.bio-additional-content {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--beige-dark);
+    clear: both;
+    display: block;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    order: 999;
 }
 
 .publication_item {
@@ -157,18 +178,18 @@ h4 {
 .experience-container {
     display: flex;
     flex-wrap: nowrap;
-    gap: 0.75rem;
+    gap: 0.5rem;
     margin-bottom: 1rem;
     overflow-x: auto;
 }
 
 .experience-item {
     background-color: #FFFFFF;
-    border-left: 3px solid var(--brown-light);
-    padding: 0.6rem;
+    border-left: none;
+    padding: 0.4rem;
     border-radius: 4px;
     flex: 1 1 0;
-    min-width: 140px;
+    min-width: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,33 +203,33 @@ h4 {
 }
 
 .experience-icon {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     object-fit: contain;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.25rem;
 }
 
 .experience-date {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     color: var(--text-brown-light);
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.15rem;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 .experience-org {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: var(--brown-dark);
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 .experience-role {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--text-brown-light);
-    margin-bottom: 0.2rem;
-    line-height: 1.2;
+    margin-bottom: 0;
+    line-height: 1.1;
 }
 
 .experience-detail {
@@ -243,33 +264,33 @@ h4 {
 
 @media (max-width: 768px) {
     .experience-container {
-        gap: 0.5rem;
+        gap: 0.4rem;
     }
     
     .experience-item {
-        min-width: 120px;
-        padding: 0.5rem;
+        min-width: 100px;
+        padding: 0.35rem;
     }
     
     .experience-icon {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
     
     .experience-date {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
     
     .experience-org {
-        font-size: 0.85rem;
-    }
-    
-    .experience-role {
         font-size: 0.8rem;
     }
     
-    .experience-detail {
+    .experience-role {
         font-size: 0.75rem;
+    }
+    
+    .experience-detail {
+        font-size: 0.7rem;
     }
 }
 
