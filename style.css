@@ -120,11 +120,30 @@ body {
 
 .publication_conference .badge {
     background-color: var(--brown-primary);
-    color: white;
+    color: white !important;
+    text-decoration: none !important;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease;
+    transform: scale(1) !important;
+    padding: 0.25em 0.5em !important;
+    margin: 0 !important;
+    border: none !important;
+    font-size: 0.8em !important;
+    line-height: 1 !important;
+    vertical-align: baseline !important;
 }
 
 .publication_conference .badge:hover {
-    background-color: var(--brown-dark);
+    background-color: var(--brown-dark) !important;
+    color: white !important;
+    transform: scale(1) !important;
+    padding: 0.25em 0.5em !important;
+    margin: 0 !important;
+    border: none !important;
+    font-size: 0.8em !important;
+    line-height: 1 !important;
+    vertical-align: baseline !important;
 }
 
 /* Section Headers */
