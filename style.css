@@ -203,7 +203,7 @@ h4 {
 }
 
 .experience-icon {
-    width: 45px;
+    max-width: 80px;
     height: 45px;
     object-fit: contain;
     margin-bottom: 0.25rem;
