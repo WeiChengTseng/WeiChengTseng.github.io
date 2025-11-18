@@ -134,6 +134,81 @@ h4 {
     padding-bottom: 0.3rem;
 }
 
+/* Experience Section - Compact Vertical Layout */
+.experience-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+}
+
+.experience-item {
+    background-color: #FFFFFF;
+    border-left: 3px solid var(--brown-light);
+    padding: 0.6rem;
+    border-radius: 4px;
+    flex: 1 1 0;
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.experience-item:hover {
+    background-color: var(--beige-light);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 0.4rem;
+}
+
+.experience-date {
+    font-size: 0.8rem;
+    color: var(--text-brown-light);
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.experience-org {
+    font-size: 0.9rem;
+    color: var(--brown-dark);
+    margin-bottom: 0.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.experience-role {
+    font-size: 0.85rem;
+    color: var(--text-brown-light);
+    margin-bottom: 0.2rem;
+    line-height: 1.2;
+}
+
+.experience-detail {
+    font-size: 0.8rem;
+    color: var(--text-brown-light);
+    margin-top: 0.2rem;
+    line-height: 1.2;
+}
+
+.experience-detail a {
+    color: var(--brown-primary);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.experience-detail a:hover {
+    color: var(--brown-dark);
+}
+
 /* Tables */
 .table {
     background-color: #FFFFFF;
@@ -145,6 +220,38 @@ h4 {
 
 .table td strong {
     color: var(--brown-dark);
+}
+
+@media (max-width: 768px) {
+    .experience-container {
+        gap: 0.5rem;
+    }
+    
+    .experience-item {
+        min-width: 120px;
+        padding: 0.5rem;
+    }
+    
+    .experience-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .experience-date {
+        font-size: 0.75rem;
+    }
+    
+    .experience-org {
+        font-size: 0.85rem;
+    }
+    
+    .experience-role {
+        font-size: 0.8rem;
+    }
+    
+    .experience-detail {
+        font-size: 0.75rem;
+    }
 }
 
 /* Cards */
