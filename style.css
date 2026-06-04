@@ -115,6 +115,11 @@ body {
     padding: 0.5rem;
 }
 
+.publication-teaser {
+    object-fit: cover;
+    vertical-align: top;
+}
+
 .publication_item:hover {
     border-left-color: var(--brown-light);
     background-color: var(--beige-light);
